@@ -11,15 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e277b39-1ff8-43a7-8e01-130e4c6461e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/defaultInfluences/convert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defaultInfluences/convert_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defaultInfluences/default.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultInfluences/classical.go" beforeDir="false" afterPath="$PROJECT_DIR$/defaultInfluences/classical.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultInfluences/classical_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/defaultInfluences/classical_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influence.go" beforeDir="false" afterPath="$PROJECT_DIR$/influence.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,38 +167,42 @@
       <screen x="0" y="0" width="1447" height="864" />
     </state>
     <state x="517" y="266" key="#Go_Modules/0.0.1447.864@0.0.1447.864" timestamp="1606482201715" />
-    <state width="1405" height="224" key="GridCell.Tab.0.bottom" timestamp="1606488926026">
+    <state x="179" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606489139555">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="224" key="GridCell.Tab.0.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
-    <state width="1405" height="224" key="GridCell.Tab.0.center" timestamp="1606488926026">
+    <state x="179" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1447.864@0.0.1447.864" timestamp="1606489139555" />
+    <state width="1405" height="224" key="GridCell.Tab.0.bottom" timestamp="1606492270579">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="224" key="GridCell.Tab.0.center/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
-    <state width="1405" height="224" key="GridCell.Tab.0.left" timestamp="1606488926026">
+    <state width="1405" height="224" key="GridCell.Tab.0.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
+    <state width="1405" height="224" key="GridCell.Tab.0.center" timestamp="1606492270579">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="224" key="GridCell.Tab.0.left/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
-    <state width="1405" height="224" key="GridCell.Tab.0.right" timestamp="1606488926026">
+    <state width="1405" height="224" key="GridCell.Tab.0.center/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
+    <state width="1405" height="224" key="GridCell.Tab.0.left" timestamp="1606492270579">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="224" key="GridCell.Tab.0.right/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
-    <state width="1405" height="277" key="GridCell.Tab.1.bottom" timestamp="1606486516585">
+    <state width="1405" height="224" key="GridCell.Tab.0.left/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
+    <state width="1405" height="224" key="GridCell.Tab.0.right" timestamp="1606492270579">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
-    <state width="1405" height="277" key="GridCell.Tab.1.center" timestamp="1606486516585">
+    <state width="1405" height="224" key="GridCell.Tab.0.right/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
+    <state width="1405" height="277" key="GridCell.Tab.1.bottom" timestamp="1606492270564">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.center/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
-    <state width="1405" height="277" key="GridCell.Tab.1.left" timestamp="1606486516585">
+    <state width="1405" height="277" key="GridCell.Tab.1.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606492270564" />
+    <state width="1405" height="277" key="GridCell.Tab.1.center" timestamp="1606492270563">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.left/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
-    <state width="1405" height="277" key="GridCell.Tab.1.right" timestamp="1606486516585">
+    <state width="1405" height="277" key="GridCell.Tab.1.center/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
+    <state width="1405" height="277" key="GridCell.Tab.1.left" timestamp="1606492270563">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.right/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
+    <state width="1405" height="277" key="GridCell.Tab.1.left/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
+    <state width="1405" height="277" key="GridCell.Tab.1.right" timestamp="1606492270563">
+      <screen x="0" y="0" width="1447" height="864" />
+    </state>
+    <state width="1405" height="277" key="GridCell.Tab.1.right/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
     <state x="387" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606487515842">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
@@ -214,13 +213,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go</url>
-          <line>16</line>
+          <line>25</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/defaultInfluences/classical_test.go</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

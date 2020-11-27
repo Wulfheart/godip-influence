@@ -2,17 +2,25 @@ package influenceCalculators
 
 import (
 	"fmt"
+	"github.com/gorilla/mux"
 	"github.com/zond/godip/variants"
+	"github.com/zond/godip/variants/classical"
+	"net/http"
 	"testing"
 )
 
 func TestClassic(t *testing.T){
-	var variantName = "Classical"
+	variantName := "Classical"
 	variant, found := variants.Variants[variantName]
 	if !found {
-		t.Errorf("Variant %q not found", variantName)
+		t.Error("Variant", variantName,  "not found")
+		return
 	}
 	state, err := variant.Start()
-	a := state.Graph().Provinces()
-	fmt.Println(variant, state, err, a)
+	if err != nil {
+		t.Error(err.Error())
+		return
+	}
+	var phase := classical.NewPhase()
+	var influence =
 }
