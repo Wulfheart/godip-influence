@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/godip-influence.iml" filepath="$PROJECT_DIR$/.idea/godip-influence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/godipInfluence.iml" filepath="$PROJECT_DIR$/.idea/godipInfluence.iml" />
     </modules>
   </component>
 </project>

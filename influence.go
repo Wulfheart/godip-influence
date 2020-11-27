@@ -1,4 +1,4 @@
-package godip_influence
+package godipInfluence
 
 import "github.com/zond/godip"
 
