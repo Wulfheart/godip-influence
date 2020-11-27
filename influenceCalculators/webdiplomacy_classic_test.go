@@ -1,11 +1,10 @@
 package influenceCalculators
 
 import (
-	"fmt"
-	"github.com/gorilla/mux"
+	"github.com/stretchr/testify/assert"
+	"github.com/wulfheart/godip-influence/defaultInfluences"
+	"github.com/zond/godip"
 	"github.com/zond/godip/variants"
-	"github.com/zond/godip/variants/classical"
-	"net/http"
 	"testing"
 )
 
@@ -21,6 +20,32 @@ func TestClassic(t *testing.T){
 		t.Error(err.Error())
 		return
 	}
-	var phase := classical.NewPhase()
-	var influence =
+
+	// err = state.SetOrder("par", orders.Move("par", "pic"))
+	// if err != nil {
+	// 	t.Error(err.Error())
+	// 	return
+	// }
+	// err = state.Next()
+	// if err != nil {
+	// 	t.Error(err.Error())
+	// 	return
+	// }
+
+	state.SetUnit("bel", godip.Unit{
+		Type:   godip.Army,
+		Nation: godip.France,
+	})
+
+
+
+
+	var influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)
+	assert.Equal(t, godip.Neutral, influence["bel"])
+
+	state.Next()
+	state.Next()
+	 influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)
+	assert.Equal(t, godip.France, influence["bel"])
+
 }
