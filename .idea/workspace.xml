@@ -11,11 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e277b39-1ff8-43a7-8e01-130e4c6461e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/defaultInfluences/classical.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defaultInfluences/classical_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defaultInfluences/convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defaultInfluences/convert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defaultInfluences/default.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/influence.go" beforeDir="false" afterPath="$PROJECT_DIR$/influence.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultInfluences/classical.go" beforeDir="false" afterPath="$PROJECT_DIR$/defaultInfluences/classical.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultInfluences/classical_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/defaultInfluences/classical_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <recent name="D:\Code\dip\godipInfluence\defaultInfluences" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences (2)">
+  <component name="RunManager" selected="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (4)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,29 +73,7 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestClassic in github.com/wulfheart/godip-influence/influenceCalculators (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="godipInfluence" />
-      <working_directory value="$PROJECT_DIR$/influenceCalculators" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/wulfheart/godip-influence/influenceCalculators" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestClassic\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestClassic in github.com/wulfheart/godip-influence/influenceCalculators (5)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="godipInfluence" />
-      <working_directory value="$PROJECT_DIR$/influenceCalculators" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/wulfheart/godip-influence/influenceCalculators" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestClassic\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/defaultInfluences" />
       <framework value="gotest" />
@@ -99,10 +81,10 @@
       <package value="github.com/wulfheart/godip-influence/defaultInfluences" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestClassicalInfluences\E$" />
+      <pattern value="^\QTestConvertToInfluence\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/defaultInfluences" />
       <framework value="gotest" />
@@ -110,10 +92,10 @@
       <package value="github.com/wulfheart/godip-influence/defaultInfluences" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestClassicalInfluences\E$" />
+      <pattern value="^\QTestConvertToInfluence\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/defaultInfluences" />
       <framework value="gotest" />
@@ -121,7 +103,29 @@
       <package value="github.com/wulfheart/godip-influence/defaultInfluences" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestClassicalInfluences\E$" />
+      <pattern value="^\QTestConvertToInfluence\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="godipInfluence" />
+      <working_directory value="$PROJECT_DIR$/defaultInfluences" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/wulfheart/godip-influence/defaultInfluences" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestConvertToInfluence\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="godipInfluence" />
+      <working_directory value="$PROJECT_DIR$/defaultInfluences" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/wulfheart/godip-influence/defaultInfluences" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestConvertToInfluence\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences (2)" />
-        <item itemvalue="Go Test.TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences (1)" />
-        <item itemvalue="Go Test.TestClassicalInfluences in github.com/wulfheart/godip-influence/defaultInfluences" />
-        <item itemvalue="Go Test.TestClassic in github.com/wulfheart/godip-influence/influenceCalculators (5)" />
-        <item itemvalue="Go Test.TestClassic in github.com/wulfheart/godip-influence/influenceCalculators (4)" />
+        <item itemvalue="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (4)" />
+        <item itemvalue="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (3)" />
+        <item itemvalue="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (2)" />
+        <item itemvalue="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences (1)" />
+        <item itemvalue="Go Test.TestConvertToInfluence in github.com/wulfheart/godip-influence/defaultInfluences" />
       </list>
     </recent_temporary>
   </component>
@@ -168,42 +172,42 @@
       <screen x="0" y="0" width="1447" height="864" />
     </state>
     <state x="517" y="266" key="#Go_Modules/0.0.1447.864@0.0.1447.864" timestamp="1606482201715" />
-    <state width="1405" height="277" key="GridCell.Tab.0.bottom" timestamp="1606486460036">
+    <state width="1405" height="224" key="GridCell.Tab.0.bottom" timestamp="1606488926026">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.0.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606486460036" />
-    <state width="1405" height="277" key="GridCell.Tab.0.center" timestamp="1606486460036">
+    <state width="1405" height="224" key="GridCell.Tab.0.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
+    <state width="1405" height="224" key="GridCell.Tab.0.center" timestamp="1606488926026">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.0.center/0.0.1447.864@0.0.1447.864" timestamp="1606486460036" />
-    <state width="1405" height="277" key="GridCell.Tab.0.left" timestamp="1606486460036">
+    <state width="1405" height="224" key="GridCell.Tab.0.center/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
+    <state width="1405" height="224" key="GridCell.Tab.0.left" timestamp="1606488926026">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.0.left/0.0.1447.864@0.0.1447.864" timestamp="1606486460036" />
-    <state width="1405" height="277" key="GridCell.Tab.0.right" timestamp="1606486460036">
+    <state width="1405" height="224" key="GridCell.Tab.0.left/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
+    <state width="1405" height="224" key="GridCell.Tab.0.right" timestamp="1606488926026">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.0.right/0.0.1447.864@0.0.1447.864" timestamp="1606486460036" />
-    <state width="1405" height="277" key="GridCell.Tab.1.bottom" timestamp="1606486460520">
+    <state width="1405" height="224" key="GridCell.Tab.0.right/0.0.1447.864@0.0.1447.864" timestamp="1606488926026" />
+    <state width="1405" height="277" key="GridCell.Tab.1.bottom" timestamp="1606486516585">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606486460520" />
-    <state width="1405" height="277" key="GridCell.Tab.1.center" timestamp="1606486460520">
+    <state width="1405" height="277" key="GridCell.Tab.1.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
+    <state width="1405" height="277" key="GridCell.Tab.1.center" timestamp="1606486516585">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.center/0.0.1447.864@0.0.1447.864" timestamp="1606486460520" />
-    <state width="1405" height="277" key="GridCell.Tab.1.left" timestamp="1606486460520">
+    <state width="1405" height="277" key="GridCell.Tab.1.center/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
+    <state width="1405" height="277" key="GridCell.Tab.1.left" timestamp="1606486516585">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.left/0.0.1447.864@0.0.1447.864" timestamp="1606486460520" />
-    <state width="1405" height="277" key="GridCell.Tab.1.right" timestamp="1606486460520">
+    <state width="1405" height="277" key="GridCell.Tab.1.left/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
+    <state width="1405" height="277" key="GridCell.Tab.1.right" timestamp="1606486516585">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state width="1405" height="277" key="GridCell.Tab.1.right/0.0.1447.864@0.0.1447.864" timestamp="1606486460520" />
-    <state x="387" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606486381641">
+    <state width="1405" height="277" key="GridCell.Tab.1.right/0.0.1447.864@0.0.1447.864" timestamp="1606486516585" />
+    <state x="387" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606487515842">
       <screen x="0" y="0" width="1447" height="864" />
     </state>
-    <state x="387" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1447.864@0.0.1447.864" timestamp="1606486381641" />
+    <state x="387" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1447.864@0.0.1447.864" timestamp="1606487515842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

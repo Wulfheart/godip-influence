@@ -1,10 +1,10 @@
 package influenceCalculators
 
 import (
-	godip_influence "github.com/wulfheart/godip-influence"
+	godipinfluence "github.com/wulfheart/godip-influence"
 	"github.com/zond/godip"
 )
 
-var WebdiplomacyClassic godip_influence.InfluenceCalculator = func(old godip.State, new godip.State) godip_influence.Influence {
+var WebdiplomacyClassic godipinfluence.InfluenceCalculator = func(old godipinfluence.Influence, new godip.State) godipinfluence.Influence {
 	return nil
 }

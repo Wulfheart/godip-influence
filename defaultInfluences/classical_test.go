@@ -9,7 +9,7 @@ import "testing"
 
 func TestClassicalInfluences(t *testing.T) {
 	var provinces = start.Graph().Provinces()
-	for _, x := range Classical {
+	for _, x := range Classical.Influences {
 		for _, y := range x {
 			if !contains(provinces, y) {
 				t.Error(y, "not found in provinces")
