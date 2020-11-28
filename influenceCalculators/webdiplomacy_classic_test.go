@@ -26,12 +26,16 @@ func TestClassic(t *testing.T) {
 		Type:   godip.Army,
 		Nation: godip.France,
 	})
+	state.SetUnit("nth", godip.Unit{
+		Type:   godip.Fleet,
+		Nation: godip.Germany,
+	})
 
 	var influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)
 	assert.Equal(t, godip.Neutral, influence["bel"])
+	assert.Equal(t, godip.Neutral, influence["nth"])
 
-	advance(t, state, 5)
-
+	state.SetSC("bel", godip.France)
 	influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)
 	assert.Equal(t, godip.France, influence["bel"])
 
