@@ -2,11 +2,13 @@ package helpers
 
 import (
 	"github.com/zond/godip"
-	"github.com/zond/godip/graph"
 )
 
-func CanHostArmy(graph graph.Graph, province godip.Province) bool{
+func CanHostArmy(graph godip.Graph, province godip.Province) bool{
+	return IsCoast(graph, province) || IsLand(graph, province)
+}
 
-	return false
+func CanHostFleet(graph godip.Graph, province godip.Province) bool{
+	return IsCoast(graph, province) || IsSea(graph, province)
 }
 

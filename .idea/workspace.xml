@@ -11,13 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e277b39-1ff8-43a7-8e01-130e4c6461e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/provinces.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/provinces_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/units.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/units_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/testhelpers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/influenceCalculators/webdiplomacy_classic_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/provinces_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/provinces_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/units.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/units.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/units_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/units_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="D:\Code\dip\godipInfluence\defaultInfluences" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.provinces_test.go">
+  <component name="RunManager" selected="Go Test.TestCanHostFleet in github.com/wulfheart/godip-influence/helpers">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,7 +71,7 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIsCoast in github.com/wulfheart/godip-influence/helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCanHostArmy in github.com/wulfheart/godip-influence/helpers (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/helpers" />
       <framework value="gotest" />
@@ -81,10 +79,10 @@
       <package value="github.com/wulfheart/godip-influence/helpers" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestIsCoast\E$" />
+      <pattern value="^\QTestCanHostArmy\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIsLand in github.com/wulfheart/godip-influence/helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCanHostArmy in github.com/wulfheart/godip-influence/helpers (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/helpers" />
       <framework value="gotest" />
@@ -92,10 +90,10 @@
       <package value="github.com/wulfheart/godip-influence/helpers" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestIsLand\E$" />
+      <pattern value="^\QTestCanHostArmy\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIsSea in github.com/wulfheart/godip-influence/helpers (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCanHostArmy in github.com/wulfheart/godip-influence/helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/helpers" />
       <framework value="gotest" />
@@ -103,10 +101,10 @@
       <package value="github.com/wulfheart/godip-influence/helpers" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestIsSea\E$" />
+      <pattern value="^\QTestCanHostArmy\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIsSea in github.com/wulfheart/godip-influence/helpers (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCanHostFleet in github.com/wulfheart/godip-influence/helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="godipInfluence" />
       <working_directory value="$PROJECT_DIR$/helpers" />
       <framework value="gotest" />
@@ -114,7 +112,7 @@
       <package value="github.com/wulfheart/godip-influence/helpers" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestIsSea\E$" />
+      <pattern value="^\QTestCanHostFleet\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCanHostFleet in github.com/wulfheart/godip-influence/helpers" />
+        <item itemvalue="Go Test.TestCanHostArmy in github.com/wulfheart/godip-influence/helpers (2)" />
+        <item itemvalue="Go Test.TestCanHostArmy in github.com/wulfheart/godip-influence/helpers (1)" />
+        <item itemvalue="Go Test.TestCanHostArmy in github.com/wulfheart/godip-influence/helpers" />
         <item itemvalue="Go Test.provinces_test.go" />
-        <item itemvalue="Go Test.TestIsSea in github.com/wulfheart/godip-influence/helpers (2)" />
-        <item itemvalue="Go Test.TestIsLand in github.com/wulfheart/godip-influence/helpers" />
-        <item itemvalue="Go Test.TestIsCoast in github.com/wulfheart/godip-influence/helpers" />
-        <item itemvalue="Go Test.TestIsSea in github.com/wulfheart/godip-influence/helpers (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,45 +174,45 @@
       <screen x="0" y="0" width="1447" height="864" />
     </state>
     <state x="179" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1447.864@0.0.1447.864" timestamp="1606489139555" />
-    <state width="1788" height="295" key="GridCell.Tab.0.bottom" timestamp="1606554123748">
+    <state width="1788" height="295" key="GridCell.Tab.0.bottom" timestamp="1606554791598">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="295" key="GridCell.Tab.0.bottom/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554123748" />
+    <state width="1788" height="295" key="GridCell.Tab.0.bottom/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554791598" />
     <state width="1405" height="224" key="GridCell.Tab.0.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
-    <state width="1788" height="295" key="GridCell.Tab.0.center" timestamp="1606554123748">
+    <state width="1788" height="295" key="GridCell.Tab.0.center" timestamp="1606554791598">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="295" key="GridCell.Tab.0.center/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554123748" />
+    <state width="1788" height="295" key="GridCell.Tab.0.center/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554791598" />
     <state width="1405" height="224" key="GridCell.Tab.0.center/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
-    <state width="1788" height="295" key="GridCell.Tab.0.left" timestamp="1606554123748">
+    <state width="1788" height="295" key="GridCell.Tab.0.left" timestamp="1606554791598">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="295" key="GridCell.Tab.0.left/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554123748" />
+    <state width="1788" height="295" key="GridCell.Tab.0.left/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554791598" />
     <state width="1405" height="224" key="GridCell.Tab.0.left/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
-    <state width="1788" height="295" key="GridCell.Tab.0.right" timestamp="1606554123748">
+    <state width="1788" height="295" key="GridCell.Tab.0.right" timestamp="1606554791598">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="295" key="GridCell.Tab.0.right/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554123748" />
+    <state width="1788" height="295" key="GridCell.Tab.0.right/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554791598" />
     <state width="1405" height="224" key="GridCell.Tab.0.right/0.0.1447.864@0.0.1447.864" timestamp="1606492270579" />
-    <state width="1788" height="363" key="GridCell.Tab.1.bottom" timestamp="1606553974316">
+    <state width="1788" height="363" key="GridCell.Tab.1.bottom" timestamp="1606554276767">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="363" key="GridCell.Tab.1.bottom/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606553974316" />
+    <state width="1788" height="363" key="GridCell.Tab.1.bottom/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554276767" />
     <state width="1405" height="277" key="GridCell.Tab.1.bottom/0.0.1447.864@0.0.1447.864" timestamp="1606492270564" />
-    <state width="1788" height="363" key="GridCell.Tab.1.center" timestamp="1606553974316">
+    <state width="1788" height="363" key="GridCell.Tab.1.center" timestamp="1606554276767">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="363" key="GridCell.Tab.1.center/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606553974316" />
+    <state width="1788" height="363" key="GridCell.Tab.1.center/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554276767" />
     <state width="1405" height="277" key="GridCell.Tab.1.center/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
-    <state width="1788" height="363" key="GridCell.Tab.1.left" timestamp="1606553974316">
+    <state width="1788" height="363" key="GridCell.Tab.1.left" timestamp="1606554276767">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="363" key="GridCell.Tab.1.left/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606553974316" />
+    <state width="1788" height="363" key="GridCell.Tab.1.left/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554276767" />
     <state width="1405" height="277" key="GridCell.Tab.1.left/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
-    <state width="1788" height="363" key="GridCell.Tab.1.right" timestamp="1606553974316">
+    <state width="1788" height="363" key="GridCell.Tab.1.right" timestamp="1606554276767">
       <screen x="0" y="0" width="1831" height="1080" />
     </state>
-    <state width="1788" height="363" key="GridCell.Tab.1.right/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606553974316" />
+    <state width="1788" height="363" key="GridCell.Tab.1.right/-1920.0.1465.864/0.0.1831.1080@0.0.1831.1080" timestamp="1606554276767" />
     <state width="1405" height="277" key="GridCell.Tab.1.right/0.0.1447.864@0.0.1447.864" timestamp="1606492270563" />
     <state x="490" y="226" width="851" height="848" key="search.everywhere.popup" timestamp="1606551766824">
       <screen x="0" y="0" width="1831" height="1080" />
