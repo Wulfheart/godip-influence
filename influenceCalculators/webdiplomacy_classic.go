@@ -19,11 +19,12 @@ var WebdiplomacyClassic godipinfluence.InfluenceCalculator = func(old godipinflu
 		old[province] = unit.Nation
 	}
 	// Set supply center states -> owner also influences SC
-	for province, _ := range adjudicated.SupplyCenters() {
-		nation, sup, ok := adjudicated.SupplyCenter(province)
+	for _, province := range adjudicated.Graph().Provinces() {
+
+		nation, _, ok := adjudicated.SupplyCenter(province)
 		if ok {
 
-			old[sup] = nation
+			old[province] = nation
 		}
 	}
 	return old

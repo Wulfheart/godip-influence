@@ -36,6 +36,7 @@ func TestClassic(t *testing.T) {
 	assert.Equal(t, godip.Neutral, influence["nth"])
 	assert.Equal(t, godip.Russia, influence["stp"], "stp")
 	assert.Equal(t, godip.Russia, influence["stp/sc"], "stp/sc")
+	assert.Equal(t, godip.Russia, influence["stp/nc"], "stp/nc")
 
 
 	state.SetSC("bel", godip.France)
