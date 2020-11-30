@@ -34,6 +34,9 @@ func TestClassic(t *testing.T) {
 	var influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)
 	assert.Equal(t, godip.Neutral, influence["bel"])
 	assert.Equal(t, godip.Neutral, influence["nth"])
+	assert.Equal(t, godip.Russia, influence["stp"], "stp")
+	assert.Equal(t, godip.Russia, influence["stp/sc"], "stp/sc")
+
 
 	state.SetSC("bel", godip.France)
 	influence = WebdiplomacyClassic(defaultInfluences.ConvertToInfluence(defaultInfluences.Classical), state)

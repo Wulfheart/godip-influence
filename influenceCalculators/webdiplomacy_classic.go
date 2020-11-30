@@ -16,13 +16,14 @@ var WebdiplomacyClassic godipinfluence.InfluenceCalculator = func(old godipinflu
 		if !helpers.CanHostArmy(adjudicated.Graph(), province){
 			continue
 		}
-		old[province.Super()] = unit.Nation
+		old[province] = unit.Nation
 	}
 	// Set supply center states -> owner also influences SC
 	for province, _ := range adjudicated.SupplyCenters() {
 		nation, sup, ok := adjudicated.SupplyCenter(province)
 		if ok {
-			old[sup.Super()] = nation
+
+			old[sup] = nation
 		}
 	}
 	return old
