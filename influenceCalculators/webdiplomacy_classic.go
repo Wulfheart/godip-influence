@@ -22,7 +22,7 @@ var WebdiplomacyClassic godipinfluence.InfluenceCalculator = func(old godipinflu
 	for province, _ := range adjudicated.SupplyCenters() {
 		nation, sup, ok := adjudicated.SupplyCenter(province)
 		if ok {
-			old[sup] = nation
+			old[sup.Super()] = nation
 		}
 	}
 	return old
